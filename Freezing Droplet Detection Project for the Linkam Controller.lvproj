@@ -209,14 +209,14 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Freezing Droplets Detection" Type="EXE">
+			<Item Name="Freezing Droplets Detection For Linkam" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0DF0B9FF-1367-4272-80B1-12A27CF9FFDC}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{9D3ECAB6-4077-46E8-AF99-5CB9E2762C50}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{44D6CF2B-2CC7-4219-82CB-1AD60C46B1EE}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Freezing Droplets Detection</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Freezing Droplets Detection For Linkam</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -225,8 +225,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
 				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/Z/Dropbox/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds/Freezing Droplets Detection.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/Z/Dropbox/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds/Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -235,7 +235,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/ApplicationFreezeIcon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E03CB2B1-A702-4490-B687-206545F72ED4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{998DEEB8-7E31-4346-A2F1-E1BC535B7583}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/main.vi</Property>
@@ -248,12 +248,12 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Main/1.png</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Freezing Droplets Detection</Property>
-				<Property Name="TgtF_internalName" Type="Str">Freezing Droplets Detection</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Freezing Droplets Detection For Linkam</Property>
+				<Property Name="TgtF_internalName" Type="Str">Freezing Droplets Detection For Linkam</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 </Property>
-				<Property Name="TgtF_productName" Type="Str">Freezing Droplets Detection</Property>
+				<Property Name="TgtF_productName" Type="Str">Freezing Droplets Detection For Linkam</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{07C2B3AC-8860-4117-B54A-B72AD4253C47}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Freezing Droplets Detection.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 			</Item>
 			<Item Name="My Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Freezing Droplet Detection Project</Property>
@@ -332,7 +332,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{07C2B3AC-8860-4117-B54A-B72AD4253C47}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Freezing Droplets Detection</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Freezing Droplets Detection</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Freezing Droplets Detection For Linkam</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
 				<Property Name="Source[1].name" Type="Str">1.png</Property>
