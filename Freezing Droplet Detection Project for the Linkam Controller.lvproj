@@ -161,6 +161,7 @@
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Num to Bold Hex Str.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/ProbeSupport.llb/Num to Bold Hex Str.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
@@ -170,6 +171,8 @@
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Refnum in Hex str.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/ProbeSupport.llb/Refnum in Hex str.vi"/>
+				<Item Name="Refnum Num Not A Refnum Str With Arg.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/ProbeSupport.llb/Refnum Num Not A Refnum Str With Arg.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -223,7 +226,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/Z/Dropbox/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/Z/Dropbox/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds/Freezing Droplets Detection For Linkam.exe</Property>
@@ -256,7 +259,7 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 			</Item>
 			<Item Name="My Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Freezing Droplet Detection Project</Property>
+				<Property Name="Destination[0].name" Type="Str">Freezing Droplet Detection For Linkam</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -304,17 +307,20 @@
 				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
 				<Property Name="DistPart[2].SoftDepCount" Type="Int">10</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{5193C011-EC1E-488E-866C-6DA1CD754A2A}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW 2013 Multicore Analysis and Sparse Matrix Run-Time Engine</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{643FD36F-35A1-5449-0263-6ACD4AE5AEB4}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Freezing Droplet Detection Project/My Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Freezing Droplet Detection For Linkam</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
 				<Property Name="INST_productName" Type="Str">Freezing Droplet Detection Project</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{7C83C367-DEFF-42A2-B06C-0DA1755E034A}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{B5F9228E-E9EB-4E89-9F70-1EB82CD821D8}</Property>
@@ -324,14 +330,14 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Freezing Droplets Detection.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Freezing Droplets Detection</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Freezing Droplet Detection Project</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{07C2B3AC-8860-4117-B54A-B72AD4253C47}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Freezing Droplets Detection</Property>
+				<Property Name="Source[0].name" Type="Str">Freezing Droplets Detection For Linkam</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Freezing Droplets Detection For Linkam</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
