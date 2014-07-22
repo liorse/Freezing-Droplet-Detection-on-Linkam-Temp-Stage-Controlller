@@ -43,7 +43,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="FilterOverlappedDroplets.vi" Type="VI" URL="../Vision Algorithms/FilterOverlappedDroplets.vi"/>
-		<Item Name="GetCursorsPositionsFromTemperatureGraph.vi" Type="VI" URL="../Utils/GetCursorsPositionsFromTemperatureGraph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
@@ -230,7 +229,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/Z/Dropbox/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/Z/Dropbox/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds/Freezing Droplets Detection For Linkam.exe</Property>
