@@ -43,6 +43,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="FilterOverlappedDroplets.vi" Type="VI" URL="../Vision Algorithms/FilterOverlappedDroplets.vi"/>
+		<Item Name="GetCursorsPositionsFromTemperatureGraph.vi" Type="VI" URL="../Utils/GetCursorsPositionsFromTemperatureGraph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
