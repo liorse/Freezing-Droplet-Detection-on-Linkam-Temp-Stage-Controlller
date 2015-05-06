@@ -75,6 +75,7 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
@@ -271,7 +272,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/W/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
-				<Property Name="Bld_version.build" Type="Int">98</Property>
+				<Property Name="Bld_version.build" Type="Int">99</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/W/Lior Segev/Naama Reicher/Software/Droplet Detection/Builds/Freezing Droplets Detection For Linkam.exe</Property>
