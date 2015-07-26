@@ -364,7 +364,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
 				<Property Name="INST_productName" Type="Str">Freezing Droplet Detection Project</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_distID" Type="Str">{7C83C367-DEFF-42A2-B06C-0DA1755E034A}</Property>
