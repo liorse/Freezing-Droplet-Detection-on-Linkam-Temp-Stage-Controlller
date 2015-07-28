@@ -272,7 +272,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/T/LabBox/Software/IceNucleation/Droplet Freeze Detection</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
-				<Property Name="Bld_version.build" Type="Int">109</Property>
+				<Property Name="Bld_version.build" Type="Int">110</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/T/LabBox/Software/IceNucleation/Droplet Freeze Detection/Freezing Droplets Detection For Linkam.exe</Property>
