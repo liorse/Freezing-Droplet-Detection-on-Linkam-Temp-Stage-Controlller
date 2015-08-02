@@ -42,7 +42,6 @@
 		<Item Name="Vision Algorithms" Type="Folder" URL="../Vision Algorithms">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="CalculateUncertainties.vi" Type="VI" URL="//psf/Home/Downloads/Lior Segev Code Projects/Freezing Droplet Detection on Linkam Temp Stage Controlller/Utils/CalculateUncertainties.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -273,7 +272,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/T/LabBox/Software/IceNucleation/Droplet Freeze Detection</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
-				<Property Name="Bld_version.build" Type="Int">111</Property>
+				<Property Name="Bld_version.build" Type="Int">112</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/T/LabBox/Software/IceNucleation/Droplet Freeze Detection/Freezing Droplets Detection For Linkam.exe</Property>
