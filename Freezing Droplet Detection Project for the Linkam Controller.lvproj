@@ -272,7 +272,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/T/LabBox/Software/IceNucleation/Droplet Freeze Detection</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AC044005-1F3D-4484-8855-23824F43732F}</Property>
-				<Property Name="Bld_version.build" Type="Int">120</Property>
+				<Property Name="Bld_version.build" Type="Int">121</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Freezing Droplets Detection For Linkam.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/T/LabBox/Software/IceNucleation/Droplet Freeze Detection/Freezing Droplets Detection For Linkam.exe</Property>
@@ -284,7 +284,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/ApplicationFreezeIcon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EB41DACF-2FA0-4777-A249-950EFBCAC22B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9C328AF1-311F-4F8F-BC40-5B7785CA9DE0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/main.vi</Property>
@@ -319,14 +319,17 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI Vision Run-Time Engine 2013</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{CD4CAB41-CAB7-436F-8D66-A83B95F2F3E6}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 f2</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{098A5571-DD46-4242-9F46-C5CE935FA004}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Run-Time Engine 2013 SP1 f3</Property>
 				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 Run-Time Engine Non-English Support.</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI LabVIEW 2013 SP1 Run-Time Engine Non-English Support.</Property>
 				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{DDE96050-C9ED-4EAC-B310-5EA217776FEA}</Property>
 				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
 				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
 				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI System Web Server 13.0</Property>
 				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
@@ -351,7 +354,7 @@
 				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI Error Reporting 2013</Property>
 				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">10</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">11</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{A661D981-0A3B-4081-A5B5-1FAA03CFAF84}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[3].productID" Type="Str">{5193C011-EC1E-488E-866C-6DA1CD754A2A}</Property>
@@ -364,7 +367,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{6C58BD40-CEC0-4F8D-A3F5-0817B6A1E0F6}</Property>
 				<Property Name="INST_productName" Type="Str">Freezing Droplet Detection Project</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13008051</Property>
 				<Property Name="MSI_distID" Type="Str">{7C83C367-DEFF-42A2-B06C-0DA1755E034A}</Property>
